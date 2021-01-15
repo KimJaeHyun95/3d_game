@@ -15,7 +15,7 @@ function aftergame() {
 
 	camera.updateProjectionMatrix();
 	renderer.render(scene, camera);
-	requestAnimationFrame(asd);
+	requestAnimationFrame(aftergame);
 }
 
 function init() {
