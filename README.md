@@ -21,3 +21,5 @@
 이후 주소창에 서버 주소를 입력하여 실행가능 http://127.0.0.1:8080
 
 ###구현 이미지
+
+<img src="C:/git/avoidance_game/img/a.png">
