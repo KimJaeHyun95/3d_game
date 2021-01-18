@@ -15,7 +15,7 @@ function aftergame() {
 
 	camera.updateProjectionMatrix();
 	renderer.render(scene, camera);
-	requestAnimationFrame(asd);
+	requestAnimationFrame(aftergame);
 }
 
 function init() {
@@ -279,7 +279,7 @@ function render() {
 		alert("win");
 		return;
 	}
-
+	//redering이 계속 반복되게 해준다.
 	requestAnimationFrame(render);
 
 }
